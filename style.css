@@ -77,6 +77,7 @@ nav {
   width: 100%;
   flex-shrink: 0;
   object-fit: contain;
+  height: 100%;
 }
 
 .prev-btn,
@@ -264,6 +265,7 @@ footer {
   background-color: #5D8779;
   justify-items: center;
   align-items: center;
+  width: 100%;
   .links-footer,.endereco {
     display: flex;
     flex-direction: column;
@@ -379,6 +381,33 @@ footer {
 
 
 @media (min-width: 768px) {
+  .nav-links {
+    height: 45px;
+    a {
+      font-size: medium;
+    }
+  }
+
+  .container-cinza {
+    h2,p {
+      font-size: medium;
+    }
+    li {
+      font-size: medium;
+    }
+    .link-contato {
+      a {
+        font-size: medium;
+      }
+    }
+  }
+
+  .treco-1,.treco-2 {
+    a {
+      font-size: medium;
+    }
+  }
+
   .rec {
     border-radius: 45px;
     right: 50%;
@@ -398,5 +427,16 @@ footer {
   .container-cinza-services {
     width: 35%;
     margin: auto;
+  }
+  .atendimento {
+    height: 300px;
+  }
+  .banner {
+    h1,h3 {
+      font-size: medium;
+    }
+  }
+  .onde-me-encontrar {
+    font-size: medium;
   }
 }
