@@ -159,7 +159,7 @@ nav {
   width: 35%;
   height: 324px;
   position: absolute;
-  top: 10px;
+  top: 15px;
   font-weight: 300;
   font-size: x-small;
   text-align: center;
@@ -379,6 +379,14 @@ footer {
   height: 220px;
 }
 
+#sobre-mim {
+  height: 368px;
+}
+
+#img-index {
+  height: 235px;
+}
+
 
 @media (min-width: 768px) {
   .nav-links {
@@ -408,11 +416,18 @@ footer {
     }
   }
 
+  .como-ajuda {
+    height: 85%;
+    top: 33px;
+  }
+
   .rec {
     border-radius: 45px;
     right: 50%;
+    top: 45px;
     transform: translateX(50%);
     width: auto;
+    height: 80%;
   }
   .treco-1,.treco-2 {
     background-color: #5D8779;
@@ -439,4 +454,36 @@ footer {
   .onde-me-encontrar {
     font-size: medium;
   }
+  .relative-con {
+    .about-txt {
+      height: 455px;
+      max-width: 400px;
+      font-size: medium;
+    }
+    .img-base{
+      height: 90%;
+    }
+    .img-sobreposta {
+      height: 85%;
+    }
+  }
+  #sobre-mim {
+    height: 500px;
+  }
+  #img-index {
+    height: 490px;
+  }
+
+  .endereco {
+    p {
+      font-size:small ;
+    }
+  }
+  footer {
+    & .links-footer, & .endereco {
+        img {
+            width: 20px;
+        }
+    }
+}
 }
