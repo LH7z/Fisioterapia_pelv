@@ -266,6 +266,13 @@ footer {
   justify-items: center;
   align-items: center;
   width: 100%;
+  gap: 1rem;
+  padding: 1rem 0;
+  .endereco {
+    p{
+      font-size: 8px;
+    }
+  }
   .links-footer,.endereco {
     display: flex;
     flex-direction: column;
@@ -490,7 +497,7 @@ footer {
   footer {
     & .links-footer, & .endereco {
         img {
-            width: 20px;
+            width: 30px;
         }
     }
   }
@@ -500,5 +507,13 @@ footer {
   .mapa {
     height: 50%;
     top: 160px;
+  }
+
+  footer {
+    .endereco{
+      p {
+        font-size: medium;
+      }
+    }
   }
 }
