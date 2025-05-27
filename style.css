@@ -277,6 +277,7 @@ footer {
   }
   .endereco {
     p{
+      max-width: 90px;
       font-size: 8px;
     }
   }
@@ -498,7 +499,7 @@ footer {
 
   .endereco {
     p {
-      font-size:small ;
+      font-size:small;
     }
   }
   footer {
@@ -520,6 +521,7 @@ footer {
     .endereco{
       p {
         font-size: medium;
+        max-width: 170px;
       }
     }
   }
